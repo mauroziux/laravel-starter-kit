@@ -12,9 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('home');
 });
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::group(['prefix' => 'admin'], function () {
+  Auth::routes();
+  Route::get('/', 'HomeController@index');
+  Route::resource('ciudades', 'ciudadesController');
+});
