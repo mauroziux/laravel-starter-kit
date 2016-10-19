@@ -44,8 +44,8 @@ trait MakeciudadesTrait
         return array_merge([
             'ciudad' => $fake->word,
             'depto_id' => $fake->randomDigitNotNull,
-            'created_at' => $fake->word,
-            'updated_at' => $fake->word
+            'created_at' => $fake->dateTime('now'),
+            'updated_at' => $fake->datetime('now')
         ], $ciudadesFields);
     }
 }

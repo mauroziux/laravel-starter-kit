@@ -13,7 +13,7 @@ class ciudadesApiTest extends TestCase
     public function testCreateciudades()
     {
         $ciudades = $this->fakeciudadesData();
-        $this->json('POST', '/api/v1/ciudades', $ciudades);
+        $this->json('POST', '/api/ciudades', $ciudades);
 
         $this->assertApiResponse($ciudades);
     }
