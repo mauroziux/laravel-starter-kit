@@ -53,6 +53,7 @@ class ciudades extends Model
     public $fillable = [
         'ciudad',
         'depto_id'
+        
     ];
 
     /**
