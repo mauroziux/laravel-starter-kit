@@ -14,10 +14,15 @@
 Route::get('/', function () {
     return redirect('home');
 });
-
+    
+    Route::get('home', 'HomeController@index');
 
 Route::group(['prefix' => 'admin'], function () {
   Auth::routes();
   Route::get('/', 'HomeController@index');
-  Route::resource('ciudades', 'ciudadesController');
+  
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
