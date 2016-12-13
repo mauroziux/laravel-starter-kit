@@ -18,7 +18,7 @@
     </div>
 
                                     <!-- PASOS DE AYUDA -->
-    <section style="background: #A9BCF5;font-size: 15px;">
+    <section class="section-3">
         <div style="width:80%;margin-left:10%;">
             <h3>AYUDA</h3>
             <hr>
@@ -39,7 +39,7 @@
     </section>
 
                                             <!-- TIPS AYUDA -->
-    <section style="background: #A4A4A4; color:white;height: 500px;">
+    <section class="section-3">
             <div style="float:left;width:30%;margin:100px;margin-left:15%;">
                 <img src="https://camo.githubusercontent.com/c79c958a5fcf3a7499c95d548cbb1ac04e138ce7/68747470733a2f2f6c61726176656c2e636f6d2f6c61726176656c2e706e67" width="100%">
             </div>

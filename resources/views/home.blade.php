@@ -33,7 +33,7 @@
         </div>
     </div>
                                                  <!-- MISION, VISION, OBJETIVO, ACERCA DE -->
-    <section style=" background-color: #34495e;color:white;font-size: 17px;">
+    <section class="section-2">
         <div class="mv">
             <div class="mvb wow fadeInLeft" data-wow-duration="1s">
                 <div class="m">
@@ -80,7 +80,7 @@
 
                                                  <!-- SEGURO, RAPIDO Y SOCIAL -->
 
-    <section style=" background-color: #3498db;margin-top:-30px;">
+    <section class="section-3">
         <div class="cc-a wow bounceInUp" data-wow-duration="1s">
             <center>
                 <h3><i class="fa fa-lock fa-3x" aria-hidden="true"></i>
@@ -118,7 +118,7 @@
 
 
                                                  <!-- RESUMEN -->
-    <section style=" background-color: #34495e;padding-bottom:0px;-webkit-box-shadow: 1px 0px 82px -29px rgba(0,0,0,1); -moz-box-shadow: 1px 0px 82px -29px rgba(0,0,0,1); box-shadow: 1px 0px 82px -29px rgba(0,0,0,1);height:600px;">
+    <section class="section-2">
         <div class="cc-d wow bounceInLeft" data-wow-duration="1s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dicta dolore ex ipsam libero maiores mollitia necessitatibus pariatur sapiente voluptatem. Animi minima nam pariatur reprehenderit repudiandae sed soluta? Iste, neque!</div>
         <p class="cc-da wow bounceInLeft" data-wow-duration="1s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid asperiores beatae consectetur inventore ipsum minima nihil nobis obcaecati, possimus quaerat saepe tempore, ut. Autem dolore earum provident repellat rerum.</p>
         <hr style="width: 80%;margin-top: -1px; float:left;margin-left: 10%;">
@@ -129,7 +129,7 @@
     </section>
 
                                                  <!-- DESCARGAR -->
-    <section style=" background-color: #3498db;margin-top: 0px;">
+    <section class="section-3">
         <div class="cc-c wow zoomIn" data-wow-duration="1s">
             <center>
                 <img src="http://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/512/MetroUI-Folder-OS-OS-Windows-icon.png" width="40%" >
@@ -156,7 +156,7 @@
 
 
                                                  <!-- CONTACTO -->
-    <section style=" background-color: #34495e; color:white;font-size: 20px; ">
+    <section class="section-2">
         <div class="contacto-b">
             <div class="foto-contacto">
                 <img src="https://image.freepik.com/iconos-gratis/perfil-macho-sombra-de-usuario_318-40244.jpg" width="100%">
@@ -180,36 +180,5 @@
                                                  <script>
                                                      new WOW().init();
                                                  </script>
+
 @endsection
-
-    <!-- REGISTRAR-->
-        <!--
-<section style="float:left;width: 100%; background-color: #41E19E;padding-bottom:50px;">
-<button class="btn-registro-b"><img src="http://www.microspot.com/images/registernav.png" style="width:25px;"> Registrar</button>
-<div class="registro-b">
-<center>
-    <h3>Registro</h3>
-</center>
-<hr>
-<form>
-    <input type="text" placeholder="Nombre">
-    <input type="text" placeholder="Apellidos">
-    <input type="password" placeholder="Contraseña">
-    <input type="password" placeholder="Verificar contraseña">
-    <select>
-        <option>Seleccionar</option>
-    </select>
-    <input type="submit" value="Registrar" class="button-b">
-</form>
-</div>
-<div class="cc-b">
-<p align="justify">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium libero molestias nihil quae quam qui temporibus totam ut velit voluptas. Ad, expedita natus nesciunt nihil nisi repellat sunt tempore veniam.
-</p>
-</div>
-</section> -->
-
-
-
-
-

@@ -15,11 +15,11 @@
         </center>
         <br>
         <div style="margin-left:23px;" class="redes">
-            <p style="margin-left:20px;float:left;border-right:0.8px solid blue;padding-right:20px;"><a href="{{ url('/') }}">Inicio</a></p>
-            <p style="margin-left:20px;float:left;border-right:0.8px solid blue;padding-right:20px;"><a href="{{ url('/ingresar') }}">Ingresar</a></p>
-            <p style="margin-left:20px;float:left;border-right:0.8px solid blue;padding-right:20px;"><a href="{{ url('/registrarse') }}">Registrarse</a></p>
-            <p style="margin-left:20px;float:left;border-right:0.8px solid blue;padding-right:20px;"><a href="{{ url('/acercade') }}">Acerca de</a></p>
-            <p style="margin-left:20px;float:left; "><a href="{{ url('/ayuda') }}">Ayuda</a></p>
+            <p class="link-footer"><a href="{{ url('/') }}">Inicio</a></p>
+            <p class="link-footer"><a href="{{ url('/ingresar') }}">Ingresar</a></p>
+            <p class="link-footer"><a href="{{ url('/registrarse') }}">Registrarse</a></p>
+            <p class="link-footer"><a href="{{ url('/acercade') }}">Acerca de</a></p>
+            <p class="link-footer" style="border:none;"><a href="{{ url('/ayuda') }}">Ayuda</a></p>
         </div>
     </div>
 </footer>

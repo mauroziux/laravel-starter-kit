@@ -15,7 +15,7 @@
 
     <!-- CONTACTO -->
 
-    <section style=" background-color: #A4A4A4; color:white;font-size: 20px;height: 100px;">
+    <section class="section-1">
         <div class="contacto-b wow fadeIn" data-wow-duration="1s">
             <div class="foto-contacto">
                 <img src="https://image.freepik.com/iconos-gratis/perfil-macho-sombra-de-usuario_318-40244.jpg" width="100%">
@@ -29,7 +29,7 @@
         <img src="https://static.contapp.com.co/contapp-web/mapa-contapp.png" width="35%" style="float: right; margin: 50px;">
     </section>
 <!-- TIPS AYUDA -->
-    <section style="background: #A4A4A4; color:white;height: 500px;">
+    <section class="section-3">
             <div style="float:left;width:30%;margin:100px;margin-left:15%;">
                 <img src="https://camo.githubusercontent.com/c79c958a5fcf3a7499c95d548cbb1ac04e138ce7/68747470733a2f2f6c61726176656c2e636f6d2f6c61726176656c2e706e67" width="100%">
             </div>
@@ -40,7 +40,7 @@
                 </p>
             </div>
     </section>
-<section style="background: #A4A4A4; color:white;height: 500px;">
+<section class="section-3">
     <div style="float:right;width:30%;margin:100px;margin-left:15%;">
         <img src="https://camo.githubusercontent.com/c79c958a5fcf3a7499c95d548cbb1ac04e138ce7/68747470733a2f2f6c61726176656c2e636f6d2f6c61726176656c2e706e67" width="100%">
     </div>
@@ -51,7 +51,7 @@
         </p>
     </div>
 </section>
-<section style="background: #A4A4A4; color:white;height: 500px;">
+<section class="section-3">
     <div style="float:left;width:30%;margin:100px;margin-left:15%;">
         <img src="https://camo.githubusercontent.com/c79c958a5fcf3a7499c95d548cbb1ac04e138ce7/68747470733a2f2f6c61726176656c2e636f6d2f6c61726176656c2e706e67" width="100%">
     </div>
