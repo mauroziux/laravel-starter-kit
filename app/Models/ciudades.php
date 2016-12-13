@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -53,7 +54,7 @@ class ciudades extends Model
     public $fillable = [
         'ciudad',
         'depto_id'
-        
+
     ];
 
     /**
@@ -75,6 +76,8 @@ class ciudades extends Model
         'ciudad' => 'required',
         'depto_id' => 'required'
     ];
+
+
 
     
 }
