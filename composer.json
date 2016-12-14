@@ -16,6 +16,7 @@
         "jlapp/swaggervel": "dev-master",
         "doctrine/dbal": "~2.3",
         "garygreen/pretty-routes": "^0.0.2",
+        "spatie/laravel-responsecache": "^1.1",
         "barryvdh/laravel-debugbar": "^2.3"
     },
     "require-dev": {
