@@ -179,6 +179,7 @@ return [
          */
          PrettyRoutes\ServiceProvider::class,
         Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
+        Spatie\ResponseCache\ResponseCacheServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -241,6 +242,8 @@ return [
         'SEOMeta'   => Artesaos\SEOTools\Facades\SEOMeta::class,
         'OpenGraph' => Artesaos\SEOTools\Facades\OpenGraph::class,
         'Twitter'   => Artesaos\SEOTools\Facades\TwitterCard::class,
+        'ResponseCache' => Spatie\ResponseCache\ResponseCacheFacade::class,
+        
     ],
 
 ];
