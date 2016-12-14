@@ -1,5 +1,5 @@
 {
-	"name": "contapp",
+	"name": "ziuxlab",
 	"icons": [
 		{
 			"src": "\/android-chrome-192x192.png",
@@ -7,12 +7,11 @@
 			"type": "image\/png"
 		},
 		{
-			"src": "\/android-chrome-512x512.png",
-			"sizes": "512x512",
+			"src": "\/android-chrome-256x256.png",
+			"sizes": "256x256",
 			"type": "image\/png"
 		}
 	],
-	"theme_color": "#16586c",
-	"start_url": "https:\/\/app.contapp.com.co",
+	"theme_color": "#ffffff",
 	"display": "standalone"
 }
