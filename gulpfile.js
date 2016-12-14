@@ -16,10 +16,9 @@ var critical = require('critical');
  */
 
 elixir(mix => {
-    //mix.task('critical');
     mix.styles(['bootstrap-flex.min.css', 'oneui.min.css', 'app.css'], 'public/assets/css/all.min.css')
     .scripts(['oneui.min.js', 'typed.min.js', 'bootstrap.min.js'], 'public/assets/js/all.min.js')
-    
+    mix.task('critical');
 });
 
 gulp.task('critical', function (cb) {
@@ -39,7 +38,7 @@ gulp.task('critical', function (cb) {
             width: 1280,
             height: 960
         }],
-        dest: 'public/assets/css/critical.css',
+        dest: 'assets/css/critical.css',
         minify: true,
         extract: false,
         ignore: ['font-face']

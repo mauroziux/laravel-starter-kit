@@ -3,45 +3,8 @@
 <meta name="author" content="Ziuxlab">
 <meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "Product",
-  "name": "Contapp mensualidad",
-  "image": "http://www.example.com/anvil_executive.jpg",
-  "description": "Sistema punto de venta POS para la gestion administrativa y financiera de su empresa, facturacion online, control de stock y más.",
-  "mpn": "925872",
-  "brand": {
-    "@type": "Thing",
-    "name": "Contapp"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "89"
-  },
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "COP",
-    "price": "50000",
-    "priceValidUntil": "2020-11-05",
-    "itemCondition": "http://schema.org/UsedCondition",
-    "availability": "http://schema.org/InStock",
-    "seller": {
-      "@type": "Organization",
-      "name": "Contapp"
-    }
-  }
-}
-</script>
-<!-- Twitter Card tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@contappco">
-<meta name="twitter:creator" content="@contappco">
-<meta name="twitter:title" content="Lorem Ipsum">
-<meta name="twitter:description" content="Sistema punto de venta POS para la gestion administrativa y financiera
-de su empresa, facturacion online, control de stock y más.">
-<meta name="twitter:image" content="http://cdn.ampproject.org/leader.jpg">
+<!-- SEO tools -->
+{!! SEO::generate(true) !!}
 @include('template.criticalcss')
 
 <link rel="apple-touch-icon" sizes="180x180" href="{{ url('favicons/apple-touch-icon.png') }}">
@@ -58,6 +21,3 @@ de su empresa, facturacion online, control de stock y más.">
 <link rel="dns-prefetch" href="//static.contapp.com.co">
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
-
-<meta name="keywords" content="sistema pos, software pos, software punto de venta, sistema punto de venta, sistema administrativo">
-<link rel="canonical" href="https://demo.contapp.com.co" />

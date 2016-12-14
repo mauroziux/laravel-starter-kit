@@ -18,7 +18,8 @@
         "garygreen/pretty-routes": "^0.0.2",
         "spatie/laravel-responsecache": "^1.1",
         "barryvdh/laravel-debugbar": "^2.3",
-        "twbs/bootstrap": "4.0.0-alpha.5"
+        "twbs/bootstrap": "4.0.0-alpha.5",
+        "artesaos/seotools": "^0.10.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
