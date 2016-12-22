@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "22a96561fe9d6145ee27ce0b653e5e33",
-    "content-hash": "42ae976c68e77b4d4a045a7577c1ce5c",
+    "hash": "6026b589425d39870b85aaa83bef1b5f",
+    "content-hash": "48d5a913da99bce7548f6c86d1b7182a",
     "packages": [
         {
             "name": "artesaos/seotools",
@@ -1258,16 +1258,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.3.26",
+            "version": "v5.3.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "609bcffd2ce2006925f8304e022288b3da5d23a4"
+                "reference": "a64fc4f8958091ca39623b2e8c8f173cb34fa47a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/609bcffd2ce2006925f8304e022288b3da5d23a4",
-                "reference": "609bcffd2ce2006925f8304e022288b3da5d23a4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a64fc4f8958091ca39623b2e8c8f173cb34fa47a",
+                "reference": "a64fc4f8958091ca39623b2e8c8f173cb34fa47a",
                 "shasum": ""
             },
             "require": {
@@ -1282,7 +1282,7 @@
                 "nesbot/carbon": "~1.20",
                 "paragonie/random_compat": "~1.4|~2.0",
                 "php": ">=5.6.4",
-                "psy/psysh": "0.7.*",
+                "psy/psysh": "0.7.*|0.8.*",
                 "ramsey/uuid": "~3.0",
                 "swiftmailer/swiftmailer": "~5.1",
                 "symfony/console": "3.1.*",
@@ -1382,7 +1382,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-11-30 14:58:38"
+            "time": "2016-12-15 18:03:17"
         },
         {
             "name": "laravelcollective/html",
@@ -1888,24 +1888,24 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v2.1.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "4dd659edadffdc2143e4753df655d866dbfeedf0"
+                "reference": "adf44419c0fc014a0f191db6f89d3e55d4211744"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4dd659edadffdc2143e4753df655d866dbfeedf0",
-                "reference": "4dd659edadffdc2143e4753df655d866dbfeedf0",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/adf44419c0fc014a0f191db6f89d3e55d4211744",
+                "reference": "adf44419c0fc014a0f191db6f89d3e55d4211744",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
-                "php": ">=5.4"
+                "php": ">=5.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.0|~5.0"
             },
             "bin": [
                 "bin/php-parse"
@@ -1913,7 +1913,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1935,7 +1935,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2016-09-16 12:04:44"
+            "time": "2016-12-06 11:30:35"
         },
         {
             "name": "paragonie/random_compat",
@@ -2259,37 +2259,38 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.7.2",
+            "version": "v0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "e64e10b20f8d229cac76399e1f3edddb57a0f280"
+                "reference": "4a8860e13aa68a4bbf2476c014f8a1f14f1bf991"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/e64e10b20f8d229cac76399e1f3edddb57a0f280",
-                "reference": "e64e10b20f8d229cac76399e1f3edddb57a0f280",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/4a8860e13aa68a4bbf2476c014f8a1f14f1bf991",
+                "reference": "4a8860e13aa68a4bbf2476c014f8a1f14f1bf991",
                 "shasum": ""
             },
             "require": {
                 "dnoegel/php-xdg-base-dir": "0.1",
                 "jakub-onderka/php-console-highlighter": "0.3.*",
-                "nikic/php-parser": "^1.2.1|~2.0",
+                "nikic/php-parser": "~1.3|~2.0|~3.0",
                 "php": ">=5.3.9",
                 "symfony/console": "~2.3.10|^2.4.2|~3.0",
                 "symfony/var-dumper": "~2.7|~3.0"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "~1.5",
-                "phpunit/phpunit": "~3.7|~4.0|~5.0",
-                "squizlabs/php_codesniffer": "~2.0",
+                "friendsofphp/php-cs-fixer": "~1.11",
+                "hoa/console": "~3.16|~1.14",
+                "phpunit/phpunit": "~4.4|~5.0",
                 "symfony/finder": "~2.1|~3.0"
             },
             "suggest": {
                 "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
                 "ext-pdo-sqlite": "The doc command requires SQLite to work.",
                 "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
-                "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history."
+                "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history.",
+                "hoa/console": "A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit."
             },
             "bin": [
                 "bin/psysh"
@@ -2327,7 +2328,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2016-03-09 05:03:14"
+            "time": "2016-12-07 17:15:07"
         },
         {
             "name": "ramsey/uuid",
@@ -3460,57 +3461,6 @@
             "time": "2016-09-20 12:50:39"
         },
         {
-            "name": "twbs/bootstrap",
-            "version": "v4.0.0-alpha.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "b5890e0608ad2262cde4a38e90afa19f1cb5d852"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/b5890e0608ad2262cde4a38e90afa19f1cb5d852",
-                "reference": "b5890e0608ad2262cde4a38e90afa19f1cb5d852",
-                "shasum": ""
-            },
-            "replace": {
-                "twitter/bootstrap": "self.version"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jacob Thornton",
-                    "email": "jacobthornton@gmail.com"
-                },
-                {
-                    "name": "Mark Otto",
-                    "email": "markdotto@gmail.com"
-                }
-            ],
-            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-            "homepage": "https://getbootstrap.com",
-            "keywords": [
-                "JS",
-                "css",
-                "framework",
-                "front-end",
-                "mobile-first",
-                "responsive",
-                "sass",
-                "web"
-            ],
-            "time": "2016-10-19 15:30:27"
-        },
-        {
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -3622,16 +3572,16 @@
         },
         {
             "name": "zircote/swagger-php",
-            "version": "2.0.7",
+            "version": "2.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zircote/swagger-php.git",
-                "reference": "299df0b51f641225ed50ba5199b21e8cfc34e4f4"
+                "reference": "39f4c30692a4925597e7d4280fc58794fb4f3730"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/299df0b51f641225ed50ba5199b21e8cfc34e4f4",
-                "reference": "299df0b51f641225ed50ba5199b21e8cfc34e4f4",
+                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/39f4c30692a4925597e7d4280fc58794fb4f3730",
+                "reference": "39f4c30692a4925597e7d4280fc58794fb4f3730",
                 "shasum": ""
             },
             "require": {
@@ -3640,7 +3590,8 @@
                 "symfony/finder": "*"
             },
             "require-dev": {
-                "squizlabs/php_codesniffer": "2.*",
+                "phpunit/phpunit": ">=4.8",
+                "squizlabs/php_codesniffer": ">=2.7",
                 "zendframework/zend-form": "<2.8"
             },
             "bin": [
@@ -3679,7 +3630,7 @@
                 "rest",
                 "service discovery"
             ],
-            "time": "2016-05-27 09:35:51"
+            "time": "2016-12-16 12:39:03"
         }
     ],
     "packages-dev": [
@@ -4148,16 +4099,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "4.0.3",
+            "version": "4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929"
+                "reference": "c14196e64a78570034afd0b7a9f3757ba71c2a0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/903fd6318d0a90b4770a009ff73e4a4e9c437929",
-                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c14196e64a78570034afd0b7a9f3757ba71c2a0a",
+                "reference": "c14196e64a78570034afd0b7a9f3757ba71c2a0a",
                 "shasum": ""
             },
             "require": {
@@ -4207,7 +4158,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-11-28 16:00:31"
+            "time": "2016-12-20 15:22:42"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -5213,8 +5164,7 @@
         "laravelcollective/html": 20,
         "infyomlabs/adminlte-templates": 20,
         "infyomlabs/swagger-generator": 20,
-        "jlapp/swaggervel": 20,
-        "twbs/bootstrap": 15
+        "jlapp/swaggervel": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
