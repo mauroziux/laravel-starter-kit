@@ -51,7 +51,7 @@
                 <h3 class="h4 font-w600 text-white-op text-center text-uppercase push-20">
                     Siguenos en nuestras redes sociales</h3>
                 <a href="#">
-                  <span class="item item-circle bg-primary push-15-r">
+                  <span class="item item-circle bg-primary text-white push-15-r">
                   <i class="fa fa-facebook"></i>
                   </span>
                 </a>
