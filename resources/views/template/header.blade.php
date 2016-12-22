@@ -1,5 +1,5 @@
 <header id="header-navbar" class="content-mini content-mini-full">
-    <div class="content-boxed ">
+    <div class="content-boxed">
         <ul class="nav-header pull-right">
             <li class="hidden-lg-up">
                 <button class="btn btn-link text-white pull-right" data-toggle="class-toggle" data-target=".js-nav-main-header" data-class="nav-main-header-o" type="button">

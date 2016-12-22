@@ -6,7 +6,7 @@
 
 @section('contenido')
     <main id="main-container" class="">
-        <div class="bg-radial-gradient-blue">
+        <div class="">
             <section class="overflow-hidden ">
                 <!-- Section Content -->
                 <div class="content-boxed">
