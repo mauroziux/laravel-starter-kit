@@ -16,7 +16,6 @@
         "jlapp/swaggervel": "dev-master",
         "doctrine/dbal": "~2.3",
         "garygreen/pretty-routes": "^0.0.2",
-        "spatie/laravel-responsecache": "^1.1",
         "barryvdh/laravel-debugbar": "^2.3",
         "artesaos/seotools": "^0.10.0"
     },
@@ -38,8 +37,8 @@
     "autoload-dev": {
         "classmap": [
           "tests/TestCase.php",
-          "tests/ApiTestTrait.php",
-          "tests/traits"
+          "tests/ApiTestTrait.php"
+
         ]
     },
     "scripts": {

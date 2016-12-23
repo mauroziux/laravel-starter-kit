@@ -1,5 +1,13 @@
 <header id="header-navbar" class="content-mini content-mini-full">
-    <div class="content-boxed">
+    <div class="content-boxed row flex-items-xs-between">
+        <ul class="nav-header  col-xs ">
+            <li class="header-content">
+                <a href="{{url('/')}}">
+                    <img class="" src="{{ url('assets/img/logo.png') }}" alt="contapp sistema pos" height="50">
+                </a>
+            </li>
+
+        </ul>
         <ul class="nav-header pull-right">
             <li class="hidden-lg-up">
                 <button class="btn btn-link text-white pull-right" data-toggle="class-toggle" data-target=".js-nav-main-header" data-class="nav-main-header-o" type="button">
@@ -7,32 +15,25 @@
                 </button>
             </li>
         </ul>
-        <ul class="js-nav-main-header nav-main-header push-5-t pull-right">
+        <ul class="col-xs js-nav-main-header nav-main-header push-5-t">
             <li class="text-xs-right hidden-lg-up">
                 <button class="btn btn-link text-white" data-toggle="class-toggle" data-target=".js-nav-main-header" data-class="nav-main-header-o" type="button">
                     <i class="fa fa-times"></i>
                 </button>
             </li>
             <li>
-                <a class="h4 active text-center text-white font-w400" href="#">Inicio</a>
+                <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Servicios</a>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w400" href="{{ url('caracteristicas') }}">Características</a>
+                <a class="h4 text-center text-white font-w600" href="{{ url('planes') }}">Casos de exito</a>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w400" href="{{ url('planes') }}">Planes</a>
+                <a class="h4 text-center text-white font-w600" href="">Nosotros</a>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w400" href="https://app.contapp.com.co">Login</a>
+                <a class="h4 text-center text-white font-w600" href="#">Contactanos</a>
             </li>
         </ul>
-        <ul class="nav-header pull-left">
-            <li class="header-content">
-                <a href="{{url('/')}}">
-                    <img class="" src="{{ url('assets/img/logo.png') }}" alt="contapp sistema pos" height="50">
-                </a>
-            </li>
-           
-        </ul>
+
     </div>
 </header>

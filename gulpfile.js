@@ -23,7 +23,7 @@ elixir(mix => {
     mix.styles(['bootstrap-flex.min.css', 'oneui.min.css', 'app.css'], 'public/assets/css/all.min.css');
     mix.scripts(['oneui.min.js', 'typed.min.js','tether.min.js', 'bootstrap.min.js'], 'public/assets/js/all.min.js');
     //mix.task('critical');
-    mix.task('cache-clear');
+    //mix.task('cache-clear');
     //mix.browserSync();
     //mix.phpUnit();
 });
