@@ -1,55 +1,28 @@
 <footer id="page-footer" class="bg-grey">
-    <div class="content-boxed">
+    <div class="row content-boxed padding-20 flex-items-xs-middle">
         <!-- Footer Navigation -->
-        <div class="row padding-30">
-            <div class="col-sm-4 text-center">
-                <img alt="logo-contapp" src="https://static.contapp.com.co/contapp-web/logo.png" height="57"
-                     width="156">
-                <div class="font-s14 padding-30 text-justify text-white-op">
-                    <p>Somos una novedosa herramienta web que te permite conocer la
-                       rentabilidad de tu negocio, administrar múltiples almacenes
-                       e inventarios, todo desde la nube, teniendo el control
-                       de su negocio.</p>
+
+            <div class="col-sm text-xs-center">
+                <img src="{{ url('assets/img/logo.png') }}" alt="User expirience first" height="50">
+                <!--<div class="font-s14 padding-30 text-justify text-white-op">
+                    <p>Somos una novedosa empresa de desarrollo de software  enfocada a la experiencia de usuario
+                        UX "User eXpirience", contamos con uno de los laboratorios de usabilidad y optimización
+                        web mas grandes de Colombia, que permite brindar a nuestros
+                        clientes productos usables, testiados y optimizados, para una experiencia de usuario de calidad.</p>
+                </div>-->
+            </div>
+            <div class="row col-sm-6 text-xs-center">
+                <div class="col-sm ">
+                    <a class="font-w600 " href="{{ url('/') }}">Inicio</a>
+                    <span class="vertical-divider"> | </span>
+                    <a class="font-w600 " href="{{ url('caracteristicas') }}">Características</a>
+                    <span class="vertical-divider"> | </span>
+                    <a class="font-w600 " href="{{ url('planes') }}">Planes</a>
+                    <span class="vertical-divider"> | </span>
+                    <a class="font-w600 " href="{{ url('equipo') }}">Equipo</a>
                 </div>
             </div>
-
-            <div class="col-sm-4">
-                <h3 class="h4 font-w600 text-white-op text-center text-uppercase push-20">La Empresa</h3>
-                <div class="padding-30">
-                    <div class="col-md-6">
-                        <ul class="list list-simple-mini font-s16">
-                            <li>
-                                <a class="font-w600" href="{{ url('/') }}">Inicio</a>
-                            </li>
-                            <li>
-                                <a class="font-w600" href="{{ url('caracteristicas') }}">Características</a>
-                            </li>
-                            <li>
-                                <a class="font-w600" href="{{ url('planes') }}">Planes</a>
-                            </li>
-                            <li>
-                                <a class="font-w600" href="{{ url('equipo') }}">Equipo</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="list list-simple-mini font-s16">
-                            <li>
-                                <a class="font-w600" href="{{ url('blog') }}">Blog</a>
-                            </li>
-                            <li>
-                                <a class="font-w600" href="{{ url('demo') }}">Demo</a>
-                            </li>
-                            <li>
-                                <a class="font-w600" href="https://app.contapp.com.co">Ingreso</a>
-                            </li>
-                        </ul>
-                    </div>
-                </diV>
-            </div>
-            <div class="col-sm-4 text-center">
-                <h3 class="h4 font-w600 text-white-op text-center text-uppercase push-20">
-                    Siguenos en nuestras redes sociales</h3>
+            <div class="col-sm text-xs-center">
                 <a href="#">
                   <span class="item item-circle bg-primary text-white push-15-r">
                   <i class="fa fa-facebook"></i>
@@ -70,18 +43,14 @@
                   <i class="fa fa-google-plus"></i>
                   </span>
                 </a>
-                <h3 class="h4 font-w600 text-white-op text-center text-uppercase push-20-t push-20">
-                    Quienes nos apoyan</h3>
-                <img class="img-responsive" height="53" alt="socios contapp" width="301"
-                     src="https://static.contapp.com.co/contapp-web/aliados-contapp.png">
             </div>
         
-        </div>
+
         <!-- END Footer Navigation -->
     </div>
-    <div class="col-sm-12 bg-green-light">
+    <div class="row bg-green-light">
         <!-- Copyright Info -->
-        <div class="font-s20 text-center push-10-t clearfix">
+        <div class="col-sm font-s20 text-xs-center push-10-t clearfix">
             <p>Creado con <i class="fa fa-heart text-city"></i> en Colombia por <strong style="color: #393838">ZIUXLAB</strong></p>
         </div>
         <!-- END Copyright Info -->

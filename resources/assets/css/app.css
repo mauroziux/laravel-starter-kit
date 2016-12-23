@@ -1,14 +1,6 @@
-/* flex-box */
 .content-boxed{
     display: flex;
 }
-
-.content-boxed ul{
-
-}
-
-
-
 .bg-radial-gradient-blue {
   background-image: -webkit-radial-gradient(circle closest-corner at 50% 70%, #00a1f1, #0275d8 99%);
   background-image: radial-gradient(circle closest-corner at 50% 70%, #00a1f1, #0275d8 99%);
@@ -19,14 +11,27 @@
 
 }
 
-.div-full{
-    height:100vh;
+footer a .item {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+
+}
+
+.vertical-divider{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+    color: white;
 }
 
 
+.div-full{
+    min-height:100vh;
+}
 
 .portada{
-  margin: 100px 100px 50px;
+  margin: 50px 20px 50px;
 }
 .portada .h1{
     line-height: 0.9em;
@@ -74,6 +79,9 @@
 .tc{
   display: inline-block !important;
   text-align: right;
+}
+.padding-20{
+    padding: 20px !important;
 }
 .padding-30{
   padding: 30px !important;

@@ -19,7 +19,7 @@ body {
   outline: 0 !important;
 }
 a {
-  color: #1b8bf9;
+  color: #00a1f1;
   -webkit-transition: color 0.12s ease-out;
   transition: color 0.12s ease-out;
 }
@@ -33,7 +33,7 @@ a.link-effect:before {
   width: 100%;
   height: 2px;
   content: "";
-  background-color: #0565c2;
+  background-color: #006ea4;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -44,7 +44,7 @@ a.link-effect:before {
 }
 a:hover,
 a:focus {
-  color: #0565c2;
+  color: #006ea4;
   text-decoration: none;
 }
 a:hover.link-effect:before,
@@ -54,7 +54,7 @@ a:focus.link-effect:before {
   transform: scaleX(1);
 }
 a:active {
-  color: #1b8bf9;
+  color: #00a1f1;
 }
 a.inactive {
   cursor: not-allowed;
@@ -11405,17 +11405,9 @@ div.tagsinput span.tag a:hover {
 
 /*# sourceMappingURL=oneui.min.css.map */
 
-/* flex-box */
 .content-boxed{
     display: flex;
 }
-
-.content-boxed ul{
-
-}
-
-
-
 .bg-radial-gradient-blue {
   background-image: -webkit-radial-gradient(circle closest-corner at 50% 70%, #00a1f1, #0275d8 99%);
   background-image: radial-gradient(circle closest-corner at 50% 70%, #00a1f1, #0275d8 99%);
@@ -11426,14 +11418,27 @@ div.tagsinput span.tag a:hover {
 
 }
 
-.div-full{
-    height:100vh;
+footer a .item {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+
+}
+
+.vertical-divider{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+    color: white;
 }
 
 
+.div-full{
+    min-height:100vh;
+}
 
 .portada{
-  margin: 100px 100px 50px;
+  margin: 50px 20px 50px;
 }
 .portada .h1{
     line-height: 0.9em;
@@ -11481,6 +11486,9 @@ div.tagsinput span.tag a:hover {
 .tc{
   display: inline-block !important;
   text-align: right;
+}
+.padding-20{
+    padding: 20px !important;
 }
 .padding-30{
   padding: 30px !important;

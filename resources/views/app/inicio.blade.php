@@ -7,11 +7,11 @@
 @section('contenido')
     <main id="main-container ">
         <div class="bg-lineal-gradient-blue div-full">
-            <section class="overflow-hidden">
+            <section class="overflow-hidden content-boxed">
                 <!-- Section Content -->
                 <div class="portada row">
-                    <div class="col-sm-5 flex-xs-middle">
-                        <div class="">
+                    <div class="col-lg-5 col-sm flex-sm-middle">
+                        <div class="text-xs-center text-md-left">
                             <h1 class="h1 typer font-s48 font-w600 text-white text-uppercase">Que tan <span
                                         class="element">Usable</span><br>
                                 es tu web</h1>
@@ -28,13 +28,12 @@
 
                         </div>
                     </div>
-
-                    <div class="col-sm flex-xs-middle">
+                    <div class="col-sm flex-sm-middle">
                         <img class="img-responsive"
                              src="https://cdn.mxpnl.com/cache/717dea6a4c9c1b162d0de3ac7250158d/images/static/landing/marketing/segmentation2/segmentation-hero@2x.png"
                              alt="">
                     </div>
-                    <div class="col-sm-12 text-xs-center">
+                    <div class="col-sm-12 text-xs-center flex-xs-bottom">
                         <a class="text-white" href="#section-2">
                             <i class="si si-arrow-down fa-4x"></i>
                         </a>
