@@ -26,12 +26,17 @@ footer a .item {
 }
 
 
-.div-full{
+.div-full:first-child{
     min-height:100vh;
+    padding-top: 0px;
+}
+.div-full {
+    min-height:100vh;
+    padding-top: 100px;
 }
 
 .portada{
-  margin: 50px 20px 50px;
+  margin: 100px 20px 30px;
 }
 .portada .h1{
     line-height: 0.9em;
@@ -39,11 +44,14 @@ footer a .item {
 
 #header-navbar{
     height: 75px;
-
 }
 
 .header-navbar-transparent.header-navbar-fixed.header-navbar-scroll #header-navbar {
     background-color: #2c343f;
+}
+
+.font-s42{
+    font-size: 42px !important;
 }
 
 .font-s26{
@@ -119,6 +127,31 @@ color: #f5f5f5 !important;
 .flex .v-center{
   align-self: center !important;
 }
+
+/*************** cursor typed ************/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/*************** end cursor typed ************/
+
 
 .tabbed-carousel__nav{
   position: relative;
@@ -256,6 +289,9 @@ border-radius: 3px;
     }
     .font-s16{
         font-size: 12px !important;
+    }
+    .font-s48{
+        font-size: 42px !important;
     }
     .padding-30{
       padding: 10px !important;

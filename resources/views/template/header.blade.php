@@ -1,12 +1,11 @@
 <header id="header-navbar" class="content-mini content-mini-full">
     <div class="content-boxed row">
-        <ul class="nav-header col-xs-6  col-md-5 col-xl-6">
+        <ul class="nav-header col-xs-6  col-sm-3 col-xl-5">
             <li class="header-content">
                 <a href="{{url('/')}}">
                     <img class="" src="{{ url('assets/img/logo.png') }}" alt="User expirience first" height="50">
                 </a>
             </li>
-
         </ul>
         <div class="col-xs row flex-items-xs-right hidden-lg-up">
             <ul class="nav-header ">
@@ -34,6 +33,9 @@
             </li>
             <li>
                 <a class="h4 text-center text-white font-w600" href="#">Contactanos</a>
+            </li>
+            <li>
+                <a class=" btn btn-lg btn-danger h4 text-center text-white font-w600" href="#">Hablemos</a>
             </li>
         </ul>
 

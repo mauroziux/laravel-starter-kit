@@ -10,25 +10,19 @@
             <section class="overflow-hidden content-boxed">
                 <!-- Section Content -->
                 <div class="portada row">
-                    <div class="col-lg-5 col-sm flex-sm-middle">
+                    <div class="col-lg-6 col-sm flex-sm-middle">
                         <div class="text-xs-center text-md-left">
-                            <h1 class="h1 typer font-s48 font-w600 text-white text-uppercase">Que tan <span
-                                        class="element">Usable</span><br>
-                                es tu web</h1>
-                            <h2 class="h4 text-white-op  push-10-t">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                "</h2>
-                            <div class="text-xs-center push-15-t">
-                                <button data-toggle="modal" data-target="#sign-up-form"
-                                        class="btn btn-primary animated font-s26 bounceIn  btn-lg">
-                                    ver video
-                                </button>
-                            </div>
+                            <h1 class="h1 typer font-s48 font-w600 text-white text-uppercase">Laboratorio de <br>
+                                <span class="element">Desarrollo web</span><br>
+                                enfocado a los usuarios</h1>
+                            <h2 class="h4 text-white-op  push-10-t">Integramos servicios de estratégia, planeación,
+                                diseño y
+                                desarrollo de aplicaciones web, mediante una arquitectura escalable y siempre enfocada a
+                                mejorar la experiencia de usuario.</h2>
 
                         </div>
                     </div>
-                    <div class="col-sm flex-sm-middle">
+                    <div class="col-md flex-sm-bottom">
                         <img class="img-responsive"
                              src="https://cdn.mxpnl.com/cache/717dea6a4c9c1b162d0de3ac7250158d/images/static/landing/marketing/segmentation2/segmentation-hero@2x.png"
                              alt="">
@@ -43,13 +37,32 @@
                 <!-- END Section Content -->
             </section>
         </div>
-        <div id="section-2" class="div-full bg-white">
-            <div class="content content-full overflow-hidden">
-                <div class="col-sm-12 text-xs-center flex-xs-middle">
-                    <a class="text-primary" href="#section-2">
-                        <i class="si si-arrow-down fa-4x"></i>
-                    </a>
+        <div id="section-2" class="row content content-full div-full bg-white">
+            <div class="col-sm-12 text-xs-center">
+                <p class="h2 text-uppercase font-w600">Esto es lo que hacemos bien</p>
+            </div>
+            <div class="row col-sm-12 ">
+                <div class="col-sm text-xs-center">
+                    <h3>Optimizacion web</h3>
+                    <p></p>
                 </div>
+                <div class="col-sm text-xs-center">
+                    <h3>Optimizacion web</h3>
+                    <p></p>
+                </div>
+                <div class="col-sm text-xs-center">
+                    <h3>Optimizacion web</h3>
+                    <p></p>
+                </div>
+                <div class="col-sm text-xs-center">
+                    <h3>Optimizacion web</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-sm-12 flex-sm-bottom text-xs-center">
+                <a class="text-primary" href="#section-2">
+                    <i class="si si-arrow-down fa-4x"></i>
+                </a>
             </div>
         </div>
     </main>
