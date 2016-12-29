@@ -11418,6 +11418,51 @@ div.tagsinput span.tag a:hover {
 
 }
 
+.rw-words{
+    display: inline;
+}
+
+.rw-words span{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+}
+
+.rw-words-1 span{
+    animation: rotateWordsFirst 12s linear infinite 0s;
+}
+
+.rw-words span:nth-child(2) {
+    animation-delay: 3s;
+}
+.rw-words span:nth-child(3) {
+    animation-delay: 6s;
+}
+.rw-words span:nth-child(4) {
+    animation-delay: 9s;
+}
+
+@keyframes rotateWordsFirst {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 10px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+    25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+
+.block-sombra{
+    box-shadow: 0 6px 25px #DDD;
+    position: relative;
+    top: 0;
+    transition: all .5s ease;
+}
+
+a.block-sombra:hover{
+    box-shadow: 0 6px 38px #B8B6B3;
+    top: -4px;
+}
+
+
 footer a .item {
     height: 40px;
     width: 40px;
@@ -11432,15 +11477,6 @@ footer a .item {
     color: white;
 }
 
-
-.div-full:first-child{
-    min-height:100vh;
-    padding-top: 0px;
-}
-.div-full {
-    min-height:100vh;
-    padding-top: 100px;
-}
 
 .portada{
   margin: 100px 20px 30px;
@@ -11684,7 +11720,7 @@ border-radius: 3px;
         line-height: 18px !important;
     }
     .portada{
-        margin: 150px 30px 50px 30px !important;
+        margin: 100px 30px 50px 30px !important;
     }
     .font-s36{
         font-size: 30px !important;
