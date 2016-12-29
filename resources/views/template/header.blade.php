@@ -26,16 +26,19 @@
                 <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Servicios</a>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w600" href="{{ url('planes') }}">Casos de exito</a>
+                <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Casos de exito</a>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w600" href="">Nosotros</a>
+                <a class="h4 text-center text-white font-w600" href="#">Empresa</a>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w600" href="#">Contactanos</a>
+                <a class="h4 text-center text-white font-w600" href="#">Usabilidad</a>
             </li>
             <li>
-                <a class=" btn btn-lg btn-danger h4 text-center text-white font-w600" href="#">Hablemos</a>
+                <a class="hidden-md-down btn btn-lg btn-danger h4 text-center text-white font-w600" href="#">Hablemos</a>
+            </li>
+            <li>
+                <a class="hidden-lg-up  h4 text-center text-white font-w600" href="#">Hablemos</a>
             </li>
         </ul>
 

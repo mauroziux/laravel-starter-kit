@@ -38,7 +38,6 @@
                 <!-- END Section Content -->
             </section>
         </div>
-
         <!-- seccion 2 -->
         <div id="section-2" class="row flex-items-xs-middle content content-full bg-white">
             <div class="col-sm-12 text-xs-center">
@@ -148,6 +147,47 @@
                     <i class="si si-arrow-down fa-4x"></i>
                 </a>
             </div>-->
+        </div>
+        <div id="section-2" class="row flex-items-xs-middle content content-full bg-primary">
+            <div class="col-sm-12 text-xs-center">
+                <p class="h1 text-uppercase text-white font-w700 push-15-t push">Como trabajamos</p>
+            </div>
+            <div class="row flex-items-xs-center content-boxed">
+                <div class="col-lg-8 row flex-items-xs-center text-xs-center content content-full animated fadeInUp  block block-rounded block-sombra-black">
+                    <div class="col-sm col-xs-6 content content-full">
+                        <img class="img-responsive" src="https://mentormate.com/wp-content/uploads/2016/05/PlanIcon.svg" alt="">
+                        <div class="block-content block-content-full">
+                            <h4 class="h4 text-primary">Diseño</h4>
+                            <span>lorem ipsum</span>
+                        </div>
+
+                    </div>
+                    <div class="col-sm col-xs-6 content content-full">
+                        <img class="img-responsive" src="https://mentormate.com/wp-content/uploads/2016/05/DesignIcon.svg" alt="">
+                        <div class="block-content block-content-full">
+                            <h4 class="h4 text-primary">Diseño</h4>
+                            <span>lorem ipsum</span>
+                        </div>
+                    </div>
+                    <div class="col-sm col-xs-6 content content-full">
+                        <img class="img-responsive" src="https://mentormate.com/wp-content/uploads/2016/05/DevelopIcon.svg" alt="">
+                        <div class="block-content block-content-full">
+                            <h4 class="h4 text-primary">Diseño</h4>
+                            <span>lorem ipsum</span>
+                        </div>
+                    </div>
+                    <div class="col-sm col-xs-6 content content-full">
+                        <img class="img-responsive" src="https://mentormate.com/wp-content/uploads/2016/05/StaffIcon.svg" alt="">
+                        <div class="block-content block-content-full">
+                            <h4 class="h4 text-primary">Diseño</h4>
+                            <span>lorem ipsum</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
         </div>
     </main>
 @stop

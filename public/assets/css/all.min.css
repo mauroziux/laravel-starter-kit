@@ -11405,6 +11405,9 @@ div.tagsinput span.tag a:hover {
 
 /*# sourceMappingURL=oneui.min.css.map */
 
+/********* basics  *******/
+
+
 .content-boxed{
     display: flex;
 }
@@ -11455,8 +11458,15 @@ div.tagsinput span.tag a:hover {
     100% { opacity: 0; }
 }
 
+.block-sombra-black{
+    box-shadow: 0 1px 5px #024987;
+    position: relative;
+    top: 0;
+    transition: all .5s ease;
+}
+
 .block-sombra{
-    box-shadow: 0 6px 25px #DDD;
+    box-shadow: 0 3px 15px #DDD;
     position: relative;
     top: 0;
     transition: all .5s ease;
