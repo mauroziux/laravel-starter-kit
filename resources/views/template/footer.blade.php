@@ -1,4 +1,4 @@
-<footer id="page-footer" class="bg-grey">
+<footer id="page-footer" class="bg-gray-darker">
     <div class="row content-boxed padding-20 flex-items-xs-middle">
         <!-- Footer Navigation -->
 
@@ -48,14 +48,12 @@
 
         <!-- END Footer Navigation -->
     </div>
-    <div class="row bg-green-light">
-        <!-- Copyright Info -->
+    <!--<div class="row bg-primary text-white">
         <div class="col-sm font-s20 text-xs-center push-10-t clearfix">
             <p>Creado con <i class="fa fa-heart text-city"></i> en Colombia por <strong style="color: #393838">ZIUXLAB</strong></p>
         </div>
-        <!-- END Copyright Info -->
-    </div>
-    <div id="sign-up-form" class="modal in formulario">
+    </div>-->
+    <div id="hablemos" class="modal in formulario">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="block">

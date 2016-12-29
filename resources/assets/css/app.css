@@ -11,6 +11,11 @@
 
 }
 
+.div-full{
+    min-height: 90vh;
+    z-index: 0;
+}
+
 .rw-words{
     display: inline;
 }
@@ -73,9 +78,20 @@ footer a .item {
 
 .portada{
   margin: 100px 20px 30px;
+    position: fixed;
 }
 .portada .h1{
     line-height: 0.9em;
+}
+
+#section-2{
+    z-index: 2;
+    position: relative;
+}
+
+footer{
+    z-index: 3;
+    position: relative;
 }
 
 #header-navbar{
@@ -293,7 +309,17 @@ border-radius: 3px;
 }
 
 @media (max-width: 768px) {
-   .tc{
+    /********* small **********/
+    .div-full{
+        min-height: 80vh;
+    }
+    .content.content-boxed {
+        max-width: 2500px !important;
+    }
+    .modal-dialog {
+        width: 500px !important;
+    }
+    .tc{
        display: inline-block !important;
        text-align: center;
        font-size: .8em;
@@ -336,21 +362,58 @@ border-radius: 3px;
     .padding-30{
       padding: 10px !important;
     }
+
+
     
 }
 
-@media screen and (min-width: 768px){
-    .content.content-boxed {
-        max-width: 2500px !important;
+
+@media screen and (max-width: 576px){
+/********* extra small **********/
+    .div-full{
+        min-height: 100vh;
     }
-    .modal-dialog {
-        width: 500px !important;
+    .rw-words span{
+        left: 0;
+    }
+    .h1{
+        font-size: 28px !important;
+        letter-spacing: -1px;
+        line-height: 24px !important;
+    }
+    .h3{
+        font-size: 22px !important;
+        letter-spacing: -1px;
+        line-height: 22px !important;
+    }
+    .h4{
+        font-size: 20px !important;
+        line-height: 18px !important;
+    }
+    .portada{
+        margin: 100px 10px 50px 10px !important;
     }
 
+    .font-s48{
+        font-size: 30px !important;
+    }
+    .font-s36{
+        font-size: 30px !important;
+    }
+    .font-s26{
+        font-size: 20px !important;
+    }
+    .font-s20{
+        font-size: 16px !important;
+    }
+    .font-s18{
+        font-size: 14px !important;
+    }
+    .font-s16{
+        font-size: 12px !important;
+    }
+    .padding-30{
+        padding: 10px !important;
+    }
 }
 
-@media (max-width: 760px){
-.tab-pane .img-responsive{
-  padding-left: 100px !important;
-}
-}
