@@ -30,7 +30,7 @@
                     </div>
                     <div class="col-md push-30-t ">
                         <img class="img-responsive animated bounceInRight"
-                             src="https://cdn.mxpnl.com/cache/717dea6a4c9c1b162d0de3ac7250158d/images/static/landing/marketing/segmentation2/segmentation-hero@2x.png"
+                             src="{{ asset('assets/img/usabilidad-web.png') }}"
                              alt="">
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                 <div class="col-sm-6 col-lg text-xs-center animated fadeInUp">
                     <a class="block block-sombra" href="#">
                         <div class="bg-image "
-                             style="background-image: url('http://www.worcester.ac.uk/content_images/web-development-university-worcester-course-page-header.jpg');">
+                             style="background-image: url({{ asset('assets/img/desarrollo-web.jpg') }});">
                             <div class="bg-black-op">
                                 <div class="block-content block-content-full text-center">
                                     <h3 class="h3 text-uppercase font-w600 text-white push-50-t push-50">Desarrollo <br>web
@@ -69,7 +69,7 @@
                 <div class="col-sm-6 col-lg text-xs-center animated fadeInUp">
                     <a class="block block-sombra" href="#">
                         <div class="bg-image"
-                             style="background-image: url('http://mavens.c2oq37b5hwuqhat9ztdtpvbwnol17islw.netdna-cdn.com/wp-content/uploads/2015/05/webdesign-dpc86654229-1200x608.jpg');">
+                             style="background-image: url({{ asset('assets/img/web-design.jpg') }});">
                             <div class="bg-black-op">
                                 <div class="block-content block-content-full text-center">
                                     <h3 class="h3 text-uppercase font-w600 text-white push-50-t push-50">UI/UX <br>Design
@@ -92,7 +92,7 @@
                 <div class="col-sm-6 col-lg text-xs-center animated fadeInUp">
                     <a class="block block-sombra" href="#">
                         <div class="bg-image"
-                             style="background-image: url('https://image.freepik.com/foto-gratis/mujer-sosteniendo-un-cuaderno-en-blanco-y-dibujos-de-colores_1134-74.jpg');">
+                             style="background-image: url({{ asset('assets/img/optimizacion-web.jpg') }});">
                             <div class="bg-black-op">
                                 <div class="block-content block-content-full text-center">
                                     <h3 class="h3 font-w600 text-uppercase text-white push-50-t push-50">Optimización
@@ -114,7 +114,7 @@
                 <div class="col-sm-6 col-lg text-xs-center animated fadeInUp">
                     <a class="block block-sombra" href="#">
                         <div class="bg-image"
-                             style="background-image: url('https://image.freepik.com/foto-gratis/disenadores-graficos-masculinos-y-femeninos-que-interactuan-sobre-la-computadora_1170-929.jpg');">
+                             style="background-image: url({{ asset('assets/img/pruebas-usabilidad.jpg') }});">
                             <div class="bg-black-op">
                                 <div class="block-content block-content-full text-center">
                                     <h3 class="h3 font-w600 text-uppercase text-white push-50-t push-50">Pruebas de <br>
@@ -153,31 +153,31 @@
                 <p class="h1 text-uppercase text-white font-w700 push-15-t push">Como trabajamos</p>
             </div>
             <div class="row flex-items-xs-center content-boxed">
-                <div class="col-lg-8 row flex-items-xs-center text-xs-center content content-full animated fadeInUp  block block-rounded block-sombra-black">
-                    <div class="col-sm col-xs-6 content content-full">
-                        <img class="img-responsive" src="https://mentormate.com/wp-content/uploads/2016/05/PlanIcon.svg" alt="">
+                <div class="col-lg-9 col-md-12 col-xs-10 row flex-items-xs-center text-xs-center content content-full animated fadeInUp  block block-rounded block-sombra-black">
+                    <div class="col-sm-3 col-xs-6 content content-full">
+                        <img class="img-responsive" src="{{ asset('assets/img/planeacion.svg') }}" alt="">
                         <div class="block-content block-content-full">
                             <h4 class="h4 text-primary">Diseño</h4>
                             <span>lorem ipsum</span>
                         </div>
 
                     </div>
-                    <div class="col-sm col-xs-6 content content-full">
-                        <img class="img-responsive" src="https://mentormate.com/wp-content/uploads/2016/05/DesignIcon.svg" alt="">
+                    <div class="col-sm-3 col-xs-6 content content-full">
+                        <img class="img-responsive" src="{{ asset('assets/img/diseno.svg') }}" alt="">
                         <div class="block-content block-content-full">
                             <h4 class="h4 text-primary">Diseño</h4>
                             <span>lorem ipsum</span>
                         </div>
                     </div>
-                    <div class="col-sm col-xs-6 content content-full">
-                        <img class="img-responsive" src="https://mentormate.com/wp-content/uploads/2016/05/DevelopIcon.svg" alt="">
+                    <div class="col-sm-3 col-xs-6 content content-full">
+                        <img class="img-responsive" src="{{ asset('assets/img/desarrollo.svg') }}" alt="">
                         <div class="block-content block-content-full">
                             <h4 class="h4 text-primary">Diseño</h4>
                             <span>lorem ipsum</span>
                         </div>
                     </div>
-                    <div class="col-sm col-xs-6 content content-full">
-                        <img class="img-responsive" src="https://mentormate.com/wp-content/uploads/2016/05/StaffIcon.svg" alt="">
+                    <div class="col-sm-3 col-xs-6 content content-full">
+                        <img class="img-responsive" src="{{ asset('assets/img/pruebas.svg') }}" alt="">
                         <div class="block-content block-content-full">
                             <h4 class="h4 text-primary">Diseño</h4>
                             <span>lorem ipsum</span>
