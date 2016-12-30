@@ -7,7 +7,17 @@
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
-        "barryvdh/laravel-debugbar": "^2.3"
+        "yajra/laravel-datatables-oracle": "~6.0",
+        "barryvdh/laravel-ide-helper": "^2.1",
+        "infyomlabs/laravel-generator": "5.3.x-dev",
+        "laravelcollective/html": "dev-master",
+        "infyomlabs/adminlte-templates": "5.3.x-dev",
+        "infyomlabs/swagger-generator": "dev-master",
+        "jlapp/swaggervel": "dev-master",
+        "doctrine/dbal": "~2.3",
+        "garygreen/pretty-routes": "^0.0.2",
+        "barryvdh/laravel-debugbar": "^2.3",
+        "artesaos/seotools": "^0.10.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -26,7 +36,9 @@
     },
     "autoload-dev": {
         "classmap": [
-            "tests/TestCase.php"
+          "tests/TestCase.php",
+          "tests/ApiTestTrait.php"
+
         ]
     },
     "scripts": {
@@ -42,6 +54,8 @@
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan ide-helper:generate",
+            "php artisan ide-helper:meta",
             "php artisan optimize"
         ]
     },

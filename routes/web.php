@@ -10,7 +10,12 @@
 | to using a Closure or controller method. Build something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+    
+    Route::get('/', 'InicioController@index');
+    
+    /* rutas administrativas backend */
+    Route::group(['prefix' => 'admin'], function () {
+        Auth::routes();
+        Route::get('/', 'HomeController@index');
+        
+    });
