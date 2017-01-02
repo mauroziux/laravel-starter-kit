@@ -11727,7 +11727,11 @@ border-radius: 3px;
 
 @media (max-width: 768px) {
     /********* small **********/
-    .div-full{
+
+    .rw-words span{
+        left: 0;
+
+    }.div-full{
         min-height: 80vh;
     }
     .content.content-boxed {
@@ -11790,9 +11794,7 @@ border-radius: 3px;
     .div-full{
         min-height: 100vh;
     }
-    .rw-words span{
-        left: 0;
-    }
+
     .h1{
         font-size: 28px !important;
         letter-spacing: -1px;

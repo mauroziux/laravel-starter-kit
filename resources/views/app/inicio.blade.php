@@ -58,8 +58,10 @@
                         <div class="block-content block-content-full">
                             <div class="row text-center">
                                 <div class="col-xs-12">
-                                    <div class="h4 text-muted push-5-t">Creamos aplicacion web únicas para cada uno de
-                                        nuestros clientes
+                                    <div class="h4 text-muted push-5-t">
+                                        Creamos aplicaciones web únicas para cada uno de
+                                        nuestros clientes, desarrollo completo de apps , APIs, y web apps centradas en
+                                        el usuario final para mejorar su experiencia.
                                     </div>
                                 </div>
                             </div>
@@ -80,8 +82,10 @@
                         <div class="block-content block-content-full">
                             <div class="row text-center">
                                 <div class="col-xs-12">
-                                    <div class="h4 text-muted push-5-t">Creamos aplicacion web únicas para cada uno de
-                                        nuestros clientes
+                                    <div class="h4 text-muted push-5-t">
+                                        Creamos productos que resuelvan necesidades concretas de sus usuarios
+                                        finales, consiguiendo la mayor satisfacción y mejor experiencia de uso posible
+                                        con el mínimo esfuerzo.
                                     </div>
                                 </div>
                             </div>
@@ -103,8 +107,10 @@
                         <div class="block-content block-content-full">
                             <div class="row text-center">
                                 <div class="col-xs-12">
-                                    <div class="h4 text-muted push-5-t">Creamos aplicacion web únicas para cada uno de
-                                        nuestros clientes
+                                    <div class="h4 text-muted push-5-t ">
+                                        Optimizamos de paginas web y su contenido, maximizacion de velocidad de carga en
+                                        navegadores web, cache, DNS, optimizacion para dispositivos moviles, service
+                                        workers (modo off-line), SEO.
                                     </div>
                                 </div>
                             </div>
@@ -125,8 +131,10 @@
                         <div class="block-content block-content-full">
                             <div class="row text-center">
                                 <div class="col-xs-12">
-                                    <div class="h4 text-muted push-5-t">Creamos aplicacion web únicas para cada uno de
-                                        nuestros clientes
+                                    <div class="h4 text-muted push-5-t">
+                                        Realizamos pruebas de usabilidad biometricas (eye tracker), mapas de calor, y
+                                        analisis conductivo con usuarios reales, promoviendo la usabilidad de las
+                                        interfaces de usuario.
                                     </div>
                                 </div>
                             </div>
@@ -157,8 +165,8 @@
                     <div class="col-sm-3 col-xs-6 content content-full">
                         <img class="img-responsive" src="{{ asset('assets/img/planeacion.svg') }}" alt="">
                         <div class="block-content block-content-full">
-                            <h4 class="h4 text-primary">Diseño</h4>
-                            <span>lorem ipsum</span>
+                            <h4 class="h4 text-primary">planeacion</h4>
+                            <span>Cada gran producto comienza con una gran estrategia y metas claras.</span>
                         </div>
 
                     </div>
@@ -172,14 +180,14 @@
                     <div class="col-sm-3 col-xs-6 content content-full">
                         <img class="img-responsive" src="{{ asset('assets/img/desarrollo.svg') }}" alt="">
                         <div class="block-content block-content-full">
-                            <h4 class="h4 text-primary">Diseño</h4>
+                            <h4 class="h4 text-primary">desarrollo</h4>
                             <span>lorem ipsum</span>
                         </div>
                     </div>
                     <div class="col-sm-3 col-xs-6 content content-full">
                         <img class="img-responsive" src="{{ asset('assets/img/pruebas.svg') }}" alt="">
                         <div class="block-content block-content-full">
-                            <h4 class="h4 text-primary">Diseño</h4>
+                            <h4 class="h4 text-primary">testeo</h4>
                             <span>lorem ipsum</span>
                         </div>
                     </div>

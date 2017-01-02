@@ -38,7 +38,7 @@
                 <a class="hidden-md-down btn btn-lg btn-danger h4 text-center text-white font-w600" href="#">Hablemos</a>
             </li>
             <li>
-                <a class="hidden-lg-up  h4 text-center text-white font-w600" href="#">Hablemos</a>
+                <a class="hidden-lg-up  h4 text-center text-white font-w600" href="#">Contactanos</a>
             </li>
         </ul>
 
