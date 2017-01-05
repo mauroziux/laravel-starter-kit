@@ -2,7 +2,6 @@ const elixir = require('laravel-elixir');
 
 var critical = require('critical');
 
-var exec = require('child_process').exec;
 
 
 /*
@@ -19,6 +18,7 @@ var exec = require('child_process').exec;
  */
 
 elixir(mix => {
+
     mix.less('main.less', 'resources/assets/css/oneui.min.css');
     mix.styles(['bootstrap-flex.min.css', 'oneui.min.css', 'app.css'], 'public/assets/css/all.min.css');
     mix.scripts(['oneui.min.js', 'typed.min.js','tether.min.js', 'bootstrap.min.js','functions.js'], 'public/assets/js/all.min.js');
@@ -28,14 +28,11 @@ elixir(mix => {
     //mix.phpUnit();
 });
 
-gulp.task('cache-clear', function () {
-    exec('php artisan responsecache:clear')
-});
 
-gulp.task('critical', function (cb) {
+gulp.task('critical', function () {
     critical.generate({
         base: 'public/',
-        src: 'index.html',
+        src: 'https://ziuxlab.com',
         css: [
             'public/assets/css/all.min.css',
         ],
@@ -49,9 +46,9 @@ gulp.task('critical', function (cb) {
             width: 1280,
             height: 960
         }],
-        dest: 'assets/css/critical.css',
+        dest: 'public/assets/css/critical.css',
         minify: true,
-        extract: false,
-        ignore: ['font-face']
+        extract: true,
+        ignore: ['@font-face',/url\(/],
     });
 });
