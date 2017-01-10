@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2016-12-30.
+    * Generated on 2017-01-09.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -27,7 +27,6 @@ namespace PHPSTORM_META {
             'db.factory' instanceof \Illuminate\Database\Connectors\ConnectionFactory,
             'db' instanceof \Illuminate\Database\DatabaseManager,
             'db.connection' instanceof \Illuminate\Database\MySqlConnection,
-            'encrypter' instanceof \Illuminate\Encryption\Encrypter,
             'files' instanceof \Illuminate\Filesystem\Filesystem,
             'filesystem' instanceof \Illuminate\Filesystem\FilesystemManager,
             'filesystem.disk' instanceof \Illuminate\Filesystem\FilesystemAdapter,
@@ -181,7 +180,6 @@ namespace PHPSTORM_META {
             'db.factory' instanceof \Illuminate\Database\Connectors\ConnectionFactory,
             'db' instanceof \Illuminate\Database\DatabaseManager,
             'db.connection' instanceof \Illuminate\Database\MySqlConnection,
-            'encrypter' instanceof \Illuminate\Encryption\Encrypter,
             'files' instanceof \Illuminate\Filesystem\Filesystem,
             'filesystem' instanceof \Illuminate\Filesystem\FilesystemManager,
             'filesystem.disk' instanceof \Illuminate\Filesystem\FilesystemAdapter,
@@ -335,7 +333,6 @@ namespace PHPSTORM_META {
             'db.factory' instanceof \Illuminate\Database\Connectors\ConnectionFactory,
             'db' instanceof \Illuminate\Database\DatabaseManager,
             'db.connection' instanceof \Illuminate\Database\MySqlConnection,
-            'encrypter' instanceof \Illuminate\Encryption\Encrypter,
             'files' instanceof \Illuminate\Filesystem\Filesystem,
             'filesystem' instanceof \Illuminate\Filesystem\FilesystemManager,
             'filesystem.disk' instanceof \Illuminate\Filesystem\FilesystemAdapter,
@@ -489,7 +486,6 @@ namespace PHPSTORM_META {
             'db.factory' instanceof \Illuminate\Database\Connectors\ConnectionFactory,
             'db' instanceof \Illuminate\Database\DatabaseManager,
             'db.connection' instanceof \Illuminate\Database\MySqlConnection,
-            'encrypter' instanceof \Illuminate\Encryption\Encrypter,
             'files' instanceof \Illuminate\Filesystem\Filesystem,
             'filesystem' instanceof \Illuminate\Filesystem\FilesystemManager,
             'filesystem.disk' instanceof \Illuminate\Filesystem\FilesystemAdapter,
