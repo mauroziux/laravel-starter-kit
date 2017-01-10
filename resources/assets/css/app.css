@@ -1,6 +1,6 @@
 /********* basics  *******/
 .img-container .img-options{
-    background-color: rgba(0, 0, 0, 0.9);;
+    background-color: rgba(0, 0, 0, 0.9) !important;
 }
 
 .content-boxed{
